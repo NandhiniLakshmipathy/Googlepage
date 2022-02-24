@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+}
+nav {
+  text-align: right;
+  position: relative;
+}
+
+.menus {
+  text-decoration: none;
+  margin-right: 18px;
+  text-align: right;
+  color: black;
+  margin-right: 22px;
+  top: -14px;
+  position: relative;
+}
+
+.menus:hover {
+  text-decoration: underline;
+}
+
+#dropdown {
+  top: -8px;
+  position: relative;
+  margin-right: 5px;
+}
+
+#profile_photo {
+  margin-right: 20px;
+  position: relative;
+  top: -2px;
+}
+
+section {
+  text-align: center;
+  margin-top: 20px;
+}
+#search-bar {
+  width: 100%;
+  color: beige;
+  border: 1px solid #dfe1e5;
+  padding: 13px;
+  outline: none;
+  border-radius: 24px;
+  font-size: 15px;
+  color: rgb(37, 36, 36);
+  margin-top: px;
+  text-align: left;
+}
+
+#search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(168, 156, 156, 0.6);
+  border-color: rgba(223, 225, 229, 0.5);
+}
+
+#input-box {
+  position: relative;
+  width: 600px;
+  display: inline-block;
+}
+
+.voice {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.voice:hover {
+  cursor: pointer;
+}
+
+#btn-stylling {
+  background-color: #efeff0;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: 22px;
+}
+
+#btn-stylling:hover {
+  box-shadow: 0 1px 6px 0 rgba(168, 156, 156, 0.5);
+  border-color: rgba(223, 225, 229, 0.5);
+}
+
+button {
+  text-align: center;
+}
+
+#apps {
+  width: 280px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0 0 0 0.2);
+}
+
+.app_items {
+  display: inline-block;
+  width: 84px;
+  margin-left: -290px;
+  margin-top: -20px;
+}
+
+.app_items > img {
+  height: 50px;
+  width: 55px;
+}
